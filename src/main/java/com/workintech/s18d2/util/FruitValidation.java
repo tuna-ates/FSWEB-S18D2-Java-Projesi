@@ -24,7 +24,6 @@ public class FruitValidation {
         }
         else if (fruit.getPrice()<0||fruit.getPrice()==0){
             throw new FruitException("lütfen fruit price bilgilerini 0 dan büyük giriniz!!",HttpStatus.BAD_REQUEST);
-
         }
     }
 
